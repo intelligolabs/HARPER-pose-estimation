@@ -6,10 +6,15 @@ This repository contains the code for the baseline of the 3D Human Pose Estimati
 The baseline is based on the [HRNet](https://arxiv.org/abs/1908.07919) architecture and uses the depth maps captured by the [Spot](https://bostondynamics.com/products/spot/) to estimate the 3D pose of the partially-visible human body.
 
 ## Quick start
-The dedicated module and the pretrained model will be available soon.
+The quick start guide will be available soon.
 
-## Data preparation
-Follow the steps in the [official repository](https://github.com/intelligolabs/HARPER) to download the dataset and prepare the data.
+### Installation
+You can install the required packages following the steps [here](https://github.com/leoxiaobin/deep-high-resolution-net).  
+You can find the pretrained HRNet model [here](https://univr-my.sharepoint.com/:u:/g/personal/andrea_toaiari_univr_it/EXVXjMoApr5FvECihR220xwB8vg0dC5OMqOCeZWtypaV1g?e=oJ1kXE). To use it, modify the `TEST.MODEL_FILE` parameter in the config file (`experiments/harper/hrnet/w32_256x256_adam_lr1e-3_harper.yaml`) with the correct path.
+
+### Data preparation
+Follow the steps in the HARPER [official repository](https://github.com/intelligolabs/HARPER) to download the dataset and prepare the data.   
+Modify the `DATASET.ROOT` parameter in the config file with the correct path.
 
 ## Credits
 This code is based on the [HRNet](https://arxiv.org/abs/1908.07919) architecture, forking this [implementation](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch).
