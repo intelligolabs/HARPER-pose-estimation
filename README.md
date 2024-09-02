@@ -9,7 +9,7 @@ The baseline is based on the [HRNet](https://arxiv.org/abs/1908.07919) architect
 The quick start guide will be available soon.
 
 ### Installation
-You can install the required packages following the steps [here](https://github.com/leoxiaobin/deep-high-resolution-net).  
+You can install the required packages following the steps [here](https://github.com/leoxiaobin/deep-high-resolution-net.pytorch).  
 You can find the pretrained HRNet model [here](https://univr-my.sharepoint.com/:u:/g/personal/andrea_toaiari_univr_it/EXVXjMoApr5FvECihR220xwB8vg0dC5OMqOCeZWtypaV1g?e=oJ1kXE). To use it, modify the `TEST.MODEL_FILE` parameter in the config file (`experiments/harper/hrnet/w32_256x256_adam_lr1e-3_harper.yaml`) with the correct path.
 
 ### Data preparation
